@@ -32,6 +32,11 @@ const productSchema = new Schema<IProduct>(
         imageUrl: {
             type: String,
             required: true,
+            select: false,
+        },
+        watermarkImageUrl: {
+            type: String,
+            required: true,
         },
         variants: [imageVariantSchema],
     },
