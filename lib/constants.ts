@@ -22,3 +22,12 @@ export const IMAGE_VARIANTS = {
         aspectRatio: "3:4",
     },
 } as const;
+
+export const VALID_FILE_TYPES = [
+    "image/png",
+    "image/jpeg",
+    "image/jpg",
+    "image/webp",
+];
+
+export const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
