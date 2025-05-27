@@ -28,7 +28,6 @@ export interface IProduct extends Document {
     name: string;
     description: string;
     imageUrl: string;
-    watermarkImageUrl: string;
     variants: TImageVariant[];
 }
 
