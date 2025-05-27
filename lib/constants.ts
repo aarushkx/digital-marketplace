@@ -1,4 +1,5 @@
 export const APP_NAME = "Marketplace";
+export const APP_TAGLINE = "Buy Premium Digital Assets";
 export const APP_DESCRIPTION = "A digital asset marketplace built with Next.js";
 
 export const IMAGE_VARIANTS = {
